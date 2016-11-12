@@ -25,7 +25,8 @@
     "jshint-stylish": "^2.2.1",
     "mongodb": "^2.2.11",
     "mssql": "^3.3.0",
-    "passport": "^0.3.2"
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
