@@ -3,24 +3,24 @@ var adminRouter = express.Router();
 var mongodb = require('mongodb').MongoClient;
 
 var Books = [{
-    title: 'Peace & War',
-    genre: 'Fiction',
-    author: 'Mehd Iaz',
+    title: 'Twenty Thousand Leagues Under the Sea',
+    genre: 'Science Fiction',
+    author: 'Jules Verne',
     read: false
 }, {
-    title: 'Coconuts',
-    genre: 'Culinary',
-    author: 'Mehd Iaz',
+    title: 'Sandokan: The Pirates of Malaysia',
+    genre: 'Historical Fiction',
+    author: 'Emilio Salgari',
     read: false
 }, {
-    title: 'Sentient Visitors',
-    genre: 'Science-Fiction',
-    author: 'Mehd Iaz',
+    title: 'Kharmic Rebound',
+    genre: 'Science Fiction',
+    author: 'Aaron Lee Yeager',
     read: false
 }, {
-    title: 'Disturbing Eyes',
-    genre: 'Horror',
-    author: 'Mehd Iaz',
+    title: 'Harry Potter and the Prisoner of Azkaban',
+    genre: 'Science Fiction Fantasy',
+    author: 'J.K. Rowling',
     read: false
 }];
 
