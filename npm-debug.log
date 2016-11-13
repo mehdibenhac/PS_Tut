@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'xml2js' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.0
+4 verbose install initial load of /home/ghuen/Desktop/NodeJS/PS_Tut/package.json
+5 warn package.json ps_tut@1.0.0 No repository field.
+6 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/body-parser/package.json
+7 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/cookie-parser/package.json
+8 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/ejs/package.json
+9 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/eslint/package.json
+10 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/express/package.json
+11 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/express-handlebars/package.json
+12 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/express-session/package.json
+13 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/gulp/package.json
+14 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/gulp-eslint/package.json
+15 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/gulp-inject/package.json
+16 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/gulp-jscs/package.json
+17 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/gulp-jshint/package.json
+18 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/gulp-nodemon/package.json
+19 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/jade/package.json
+20 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/jshint/package.json
+21 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/jshint-stylish/package.json
+22 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/mongodb/package.json
+23 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/mssql/package.json
+24 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/passport/package.json
+25 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/passport-local/package.json
+26 verbose installManyTop reading scoped package data from /home/ghuen/Desktop/NodeJS/PS_Tut/node_modules/wiredep/package.json
+27 info package.json passport@0.3.2 No README data
+28 info package.json passport-local@1.0.0 No license field.
+29 verbose readDependencies loading dependencies from /home/ghuen/Desktop/NodeJS/PS_Tut/package.json
+30 silly cache add args [ 'xml2js', null ]
+31 verbose cache add spec xml2js
+32 silly cache add parsed spec Result {
+32 silly cache add   raw: 'xml2js',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'xml2js',
+32 silly cache add   rawSpec: '',
+32 silly cache add   spec: 'latest',
+32 silly cache add   type: 'tag' }
+33 silly addNamed xml2js@latest
+34 verbose addNamed "latest" is being treated as a dist-tag for xml2js
+35 info addNameTag [ 'xml2js', 'latest' ]
+36 silly mapToRegistry name xml2js
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry data Result {
+39 silly mapToRegistry   raw: 'xml2js',
+39 silly mapToRegistry   scope: null,
+39 silly mapToRegistry   name: 'xml2js',
+39 silly mapToRegistry   rawSpec: '',
+39 silly mapToRegistry   spec: 'latest',
+39 silly mapToRegistry   type: 'tag' }
+40 silly mapToRegistry uri https://registry.npmjs.org/xml2js
+41 verbose addNameTag registry:https://registry.npmjs.org/xml2js not in flight; fetching
+42 verbose request uri https://registry.npmjs.org/xml2js
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 7:32:45 PM
+45 verbose request id e7020c8cd60045c4
+46 http request GET https://registry.npmjs.org/xml2js
+47 info retry will retry, error on last attempt: Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+48 info attempt registry request try #2 at 7:33:10 PM
+49 http request GET https://registry.npmjs.org/xml2js
+50 info retry will retry, error on last attempt: Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+51 info attempt registry request try #3 at 7:34:28 PM
+52 http request GET https://registry.npmjs.org/xml2js
+53 verbose stack Error: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+53 verbose stack     at Object.exports._errnoException (util.js:907:11)
+53 verbose stack     at errnoException (dns.js:32:15)
+53 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+54 verbose cwd /home/ghuen/Desktop/NodeJS/PS_Tut
+55 error Linux 4.4.0-47-generic
+56 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "xml2js"
+57 error node v4.6.0
+58 error npm  v2.15.9
+59 error code EAI_AGAIN
+60 error errno EAI_AGAIN
+61 error syscall getaddrinfo
+62 error getaddrinfo EAI_AGAIN registry.npmjs.org:443
+63 error If you need help, you may report this error at:
+63 error     <https://github.com/npm/npm/issues>
+64 verbose exit [ 1, true ]

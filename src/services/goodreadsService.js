@@ -18,7 +18,7 @@ var goodreadsService = function () {
             response.on('data', function (chunk) {
                 str += chunk;
             });
-            response.on(end, function () {
+            response.on('end', function () {
                 console.log(str);
                 parser.parseString(str, function (err, result) {
                     cb(null, result.GoodreadsResponse.book);
